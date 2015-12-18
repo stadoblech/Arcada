@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameControlls : MonoBehaviour {
 
     public KeyCode restartGame = KeyCode.R;
+    public KeyCode quitGame = KeyCode.Q;
 	void Start () {
 	
 	}
@@ -15,5 +16,11 @@ public class GameControlls : MonoBehaviour {
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-	}
+
+        if (Input.GetKeyDown(quitGame))
+        {
+            Application.Quit();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
 }

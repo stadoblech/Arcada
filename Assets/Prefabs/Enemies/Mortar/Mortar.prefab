@@ -90,7 +90,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.36, y: -2.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 489252}
@@ -159,10 +159,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58ef9e6230180a40b079387f204bf20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shield: 4
-  lives: 8
+  shield: 2
+  lives: 2
   destroyObjectOnNoHp: 0
-  destroyParent: 0
+  destroyParent: 1
   living: 0
 --- !u!114 &11422762
 MonoBehaviour:
@@ -178,6 +178,7 @@ MonoBehaviour:
   projectile: {fileID: 125040, guid: 821c8e181450fa941b9e1f7cb0a386bf, type: 2}
   fireCooldown: 1
   shootingOffScreen: 0
+  shootOnRespawn: 0
 --- !u!114 &11427542
 MonoBehaviour:
   m_ObjectHideFlags: 1
