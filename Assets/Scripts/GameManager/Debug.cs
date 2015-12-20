@@ -8,18 +8,19 @@ public class Debug : MonoBehaviour {
     public GameObject packager;
     public GameObject rocketLauncher;
     public GameObject lurker;
+    public AudioSource music;    
 
     public KeyCode immortal = KeyCode.I;
-    public KeyCode respawnMortar = KeyCode.Keypad1;
-    public KeyCode respawnPackager = KeyCode.Keypad2;
-    public KeyCode respawnRocketLauncher = KeyCode.Keypad3;
-    public KeyCode respawnLurker = KeyCode.Keypad4;
+    public KeyCode respawnMortar = KeyCode.Alpha1;
+    public KeyCode respawnPackager = KeyCode.Alpha2;
+    public KeyCode respawnRocketLauncher = KeyCode.Alpha3;
+    public KeyCode respawnLurker = KeyCode.Alpha4;
     public KeyCode cameraFollowPlayer = KeyCode.F;
     public KeyCode acceleratePlayer = KeyCode.KeypadPlus;
     public KeyCode deceleratePlayer = KeyCode.KeypadMinus;
     // Use this for initialization
     void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -68,5 +69,6 @@ public class Debug : MonoBehaviour {
                 player.GetComponent<PlayerMovement>().speed = 0.1f;
             }
         }
+
     }
 }
