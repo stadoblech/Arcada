@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class PlayerSpawn : MonoBehaviour {
 
+    public GameObject player;
     Transform route;
 
     List<GameObject> points;
@@ -23,7 +24,8 @@ public class PlayerSpawn : MonoBehaviour {
         {
             if(o.name == "0")
             {
-                GameObject.FindGameObjectWithTag("Player").transform.position = o.transform.position;
+                player.transform.position = o.transform.position;
+                //GameObject.FindGameObjectWithTag("Player").transform.position = o.transform.position;
             }
         }
 	}

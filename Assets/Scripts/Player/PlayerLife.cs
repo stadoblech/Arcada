@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class PlayerLife : MonoBehaviour {
 
     public float lives;
@@ -17,7 +18,8 @@ public class PlayerLife : MonoBehaviour {
 	void Update () {
         if(lives <= 0)
         {
-            GameLogic.gameEnded = true;
+            //GameLogic.restartLevel();
+            GameLogic.playerDied = true;
         }
 
         if(actualshield < maxShield)

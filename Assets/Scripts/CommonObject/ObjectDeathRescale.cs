@@ -20,5 +20,15 @@ public class ObjectDeathRescale : MonoBehaviour {
                 GameLogic.loadNextLevel = true;
             }
         }
+
+        if (GameLogic.playerDied)
+        {
+            transform.localScale -= new Vector3(resizeSpeed, resizeSpeed, resizeSpeed) * Time.deltaTime;
+
+            if (transform.localScale.x < 0)
+            {
+                GameLogic.restartLevel();
+            }
+        }
     }
 }

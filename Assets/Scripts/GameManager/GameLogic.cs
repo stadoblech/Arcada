@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 public class GameLogic : MonoBehaviour {
 
     public static bool gameEnded;
+    public static bool playerDied;
 
     public static bool loadNextLevel;
 
 	void Start () {
+        playerDied = false;
         gameEnded = false;
         loadNextLevel = false;
 	}
@@ -29,5 +31,10 @@ public class GameLogic : MonoBehaviour {
     public static void loadInterlevel()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public static void restartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

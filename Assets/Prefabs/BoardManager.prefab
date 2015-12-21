@@ -48,11 +48,12 @@ MonoBehaviour:
   packager: {fileID: 187098, guid: f64b6faca6e22e54e8882a8f028f711c, type: 2}
   rocketLauncher: {fileID: 137398, guid: 7304a61282ac043469205dcb09450904, type: 2}
   lurker: {fileID: 169584, guid: f7c59474bde9edf4aa1c8edc07d5ad80, type: 2}
+  music: {fileID: 0}
   immortal: 105
-  respawnMortar: 257
-  respawnPackager: 258
-  respawnRocketLauncher: 259
-  respawnLurker: 260
+  respawnMortar: 282
+  respawnPackager: 283
+  respawnRocketLauncher: 284
+  respawnLurker: 285
   cameraFollowPlayer: 102
   acceleratePlayer: 270
   deceleratePlayer: 269
@@ -67,6 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93c12e8b3bc1534e90925f717a70392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &11461788
 MonoBehaviour:
   m_ObjectHideFlags: 1
