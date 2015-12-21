@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/testing_scene.unity
   - enabled: 1
     path: Assets/Scenes/Interscene.unity
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity

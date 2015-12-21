@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyBars : MonoBehaviour {
+public class PlayerBars : MonoBehaviour {
 
     public enum BarType
     {
-        Hp,Shield
+        Hp, Shield
     }
 
-    public GameObject enemy;
+    GameObject player;
     public BarType barType;
 
-    EnemyLife enemyLife;
+    PlayerLife enemyLife;
 
     float startLife;
     float startShield;
@@ -19,16 +19,17 @@ public class EnemyBars : MonoBehaviour {
     Vector3 startScale;
 
     void Start () {
-        enemyLife = enemy.GetComponent<EnemyLife>();
-        startLife = enemyLife.lives;
-        startShield = enemyLife.shield;
-        startScale = transform.localScale;
+        player = GameObject.FindGameObjectWithTag("Player");
 
-	}
+        enemyLife = player.GetComponent<PlayerLife>();
+        startLife = enemyLife.lives;
+        startShield = enemyLife.maxShield;
+        startScale = transform.localScale;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        switch(barType)
+        switch (barType)
         {
             case BarType.Hp:
                 {
@@ -38,6 +39,12 @@ public class EnemyBars : MonoBehaviour {
                         return;
                     }
                     transform.localScale = new Vector3(enemyLife.lives / startLife, 1, 1);
+
+                    if (enemyLife.lives <= 0)
+                    {
+                        transform.localScale = new Vector3(0, 1, 1);
+                    }
+
                     break;
                 }
             case BarType.Shield:
@@ -47,9 +54,11 @@ public class EnemyBars : MonoBehaviour {
                         transform.localScale = Vector3.zero;
                         return;
                     }
-                    transform.localScale = new Vector3(enemyLife.shield / startShield, 1, 1);
+                    transform.localScale = new Vector3(enemyLife.actualshield / startShield, 1, 1);
                     break;
                 }
         }
- 	}
+    }
+        
+    
 }
