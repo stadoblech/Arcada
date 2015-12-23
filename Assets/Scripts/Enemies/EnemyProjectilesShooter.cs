@@ -7,6 +7,7 @@ public class EnemyProjectilesShooter : MonoBehaviour {
     public float fireCooldown;
     public bool shootingOffScreen = false;
     public bool shootOnRespawn;
+    public float firstShotTime;
 
     float fireTimer;
 
@@ -16,7 +17,7 @@ public class EnemyProjectilesShooter : MonoBehaviour {
         {
             fireTimer = 0;
         }else
-            fireTimer = fireCooldown;
+            fireTimer = firstShotTime;
 	}
 	
 	// Update is called once per frame

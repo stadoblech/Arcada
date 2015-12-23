@@ -39,12 +39,13 @@ public class PlayerMovement : MonoBehaviour {
 
         if (BoardSettings.loopedRoute)
         {
-            if(currentLap == BoardSettings.numOfLaps+1)
-            {
-                GameLogic.LoadNextLevel();
-            }else if(BoardSettings.numOfLaps < 0)
+            
+            if(BoardSettings.numOfLaps == 0)
             {
                 /// infinite number of laps. Only if number of laps is set to 0 or less 
+            }else if (currentLap == BoardSettings.numOfLaps + 1)
+            {
+                GameLogic.LoadNextLevel();
             }
         }
     }
@@ -75,7 +76,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         /// here is level over if not looped. Place game lofic here
-        print("here is level over if not looped. Place game lofic here");
+        GameLogic.LoadNextLevel();
 
         return transform.position;
     }
