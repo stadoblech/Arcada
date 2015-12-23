@@ -39,10 +39,9 @@ public class PlayerMovement : MonoBehaviour {
 
         if (BoardSettings.loopedRoute)
         {
-            if(currentLap == BoardSettings.numOfLaps)
+            if(currentLap == BoardSettings.numOfLaps+1)
             {
-                /// race is done. Here is place in code when number of laps is done
-                print("race is done. Here is place in code when number of laps is done");
+                GameLogic.LoadNextLevel();
             }else if(BoardSettings.numOfLaps < 0)
             {
                 /// infinite number of laps. Only if number of laps is set to 0 or less 

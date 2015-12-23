@@ -22,7 +22,7 @@ public class PlayerBars : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player");
 
         enemyLife = player.GetComponent<PlayerLife>();
-        startLife = enemyLife.lives;
+        startLife = enemyLife.maxLives;
         startShield = enemyLife.maxShield;
         startScale = transform.localScale;
     }
@@ -38,9 +38,9 @@ public class PlayerBars : MonoBehaviour {
                         transform.localScale = Vector3.zero;
                         return;
                     }
-                    transform.localScale = new Vector3(enemyLife.lives / startLife, 1, 1);
+                    transform.localScale = new Vector3(enemyLife.actualLives / startLife, 1, 1);
 
-                    if (enemyLife.lives <= 0)
+                    if (enemyLife.actualLives <= 0)
                     {
                         transform.localScale = new Vector3(0, 1, 1);
                     }

@@ -4,19 +4,22 @@ using System.Collections;
 [System.Serializable]
 public class PlayerLife : MonoBehaviour {
 
-    public float lives;
+    public float maxLives;
     public float maxShield;
+
+    public float actualLives;
     public float shieldRegentBySec;
 
     public float actualshield;
 
 	void Start () {
         actualshield = maxShield;
+        actualLives = maxLives;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(lives <= 0)
+        if(actualLives <= 0)
         {
             //GameLogic.restartLevel();
             GameLogic.playerDied = true;
@@ -32,7 +35,7 @@ public class PlayerLife : MonoBehaviour {
     {
         if (actualshield < 0)
         {
-            lives -= damage;
+            actualLives -= damage;
         }else
         {
             float difference;
@@ -43,7 +46,7 @@ public class PlayerLife : MonoBehaviour {
             if (actualshield < 0)
             {
                 actualshield = 0;
-                lives -= difference;
+                actualLives -= difference;
             }
 
         }

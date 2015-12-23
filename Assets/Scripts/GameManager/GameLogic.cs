@@ -21,11 +21,26 @@ public class GameLogic : MonoBehaviour {
         {
             loadInterlevel();
         }
+
+        if(GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        {
+            LoadNextLevel();
+        }
     }
 
     public static void LoadNextLevel()
     {
-
+        
+        int numberOfScenes = SceneManager.sceneCountInBuildSettings;
+        int nextLevelIndes = SceneManager.GetActiveScene().buildIndex;
+        nextLevelIndes++;
+        
+        if (nextLevelIndes < numberOfScenes)
+        {
+            SceneManager.LoadScene(nextLevelIndes);
+            return;
+        }
+        
     }
 
     public static void loadInterlevel()

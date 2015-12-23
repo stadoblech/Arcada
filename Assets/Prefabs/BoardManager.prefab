@@ -55,8 +55,6 @@ MonoBehaviour:
   respawnRocketLauncher: 284
   respawnLurker: 285
   cameraFollowPlayer: 102
-  acceleratePlayer: 270
-  deceleratePlayer: 269
 --- !u!114 &11456952
 MonoBehaviour:
   m_ObjectHideFlags: 1
