@@ -27,7 +27,7 @@ public class PlayerShooting : MonoBehaviour {
     }
 	
 	void Update () {
-	    if(Input.GetKey(shot))
+	    if(Input.GetKey(shot) && !GameLogic.playerDied)
         {
             fireCadency -= Time.deltaTime;
             if (fireCadency <= 0)

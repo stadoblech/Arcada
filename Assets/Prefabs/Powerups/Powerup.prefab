@@ -25,6 +25,7 @@ GameObject:
   - 4: {fileID: 453562}
   - 212: {fileID: 21225870}
   - 114: {fileID: 11498546}
+  - 61: {fileID: 6178420}
   m_Layer: 0
   m_Name: texture
   m_TagString: Untagged
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.16327, y: 395.1297, z: 0.125}
+  m_LocalPosition: {x: -0.7451128, y: 1.7741876, z: 0.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 453562}
@@ -52,11 +53,25 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.16327, y: -395.1297, z: -0.125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 403068}
   m_RootOrder: 0
+--- !u!61 &6178420
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189566}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
 --- !u!114 &11498546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e0806ad05a9a94286bba6be571cef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerupEffect: {fileID: 0}
+  powerupEffect: {fileID: 106396, guid: 9f029f131d1693143a7e55f3f6cfed37, type: 2}
 --- !u!212 &21225870
 SpriteRenderer:
   m_ObjectHideFlags: 1

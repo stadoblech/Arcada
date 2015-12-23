@@ -16,8 +16,6 @@ public class Debug : MonoBehaviour {
     public KeyCode respawnRocketLauncher = KeyCode.Alpha3;
     public KeyCode respawnLurker = KeyCode.Alpha4;
     public KeyCode cameraFollowPlayer = KeyCode.F;
-    public KeyCode acceleratePlayer = KeyCode.KeypadPlus;
-    public KeyCode deceleratePlayer = KeyCode.KeypadMinus;
     // Use this for initialization
     void Start () {
 
@@ -55,20 +53,5 @@ public class Debug : MonoBehaviour {
         {
             Camera.main.GetComponent<CameraHandler>().followingPlayer = true;
         }
-
-        if (Input.GetKeyDown(acceleratePlayer))
-        {
-            player.GetComponent<PlayerMovement>().speed += 0.2f;
-        }
-
-        if (Input.GetKeyDown(deceleratePlayer))
-        {
-            player.GetComponent<PlayerMovement>().speed -= 0.2f;
-            if(player.GetComponent<PlayerMovement>().speed <= 0.1f)
-            {
-                player.GetComponent<PlayerMovement>().speed = 0.1f;
-            }
-        }
-
     }
 }
