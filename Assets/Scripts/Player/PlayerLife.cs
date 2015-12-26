@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[System.Serializable]
 public class PlayerLife : MonoBehaviour {
 
     public float maxLives;
@@ -12,7 +11,7 @@ public class PlayerLife : MonoBehaviour {
 
     public float actualshield;
 
-	void Start () {
+	void Awake () {
         actualshield = maxShield;
         actualLives = maxLives;
 	}
@@ -25,11 +24,14 @@ public class PlayerLife : MonoBehaviour {
             GameLogic.playerDied = true;
         }
 
-        if(actualshield < maxShield)
+
+        if (actualshield < maxShield)
         {
             actualshield += shieldRegentBySec * Time.deltaTime;
         }
-	}
+        else
+            actualshield = maxShield;
+    }
 
     public void getHit(float damage)
     {

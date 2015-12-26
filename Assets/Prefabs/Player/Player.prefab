@@ -96,6 +96,7 @@ GameObject:
   - 114: {fileID: 11400646}
   - 114: {fileID: 11480512}
   - 114: {fileID: 11474064}
+  - 114: {fileID: 11495004}
   m_Layer: 0
   m_Name: player_cube
   m_TagString: Player
@@ -261,6 +262,12 @@ MonoBehaviour:
   rotationSpeed: 320
   leftRotation: 276
   rightRotation: 275
+  acceleratePlayer: 273
+  deceleratePlayer: 274
+  maxPlayerSpeed: 2
+  minPlayerSpeed: 0.5
+  changeSpeedRate: 0.1
+  changeSpeedAllowed: 1
 --- !u!114 &11465890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -330,10 +337,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f29494bda2131429cb6f05874a1965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 5
+  maxLives: 5
   maxShield: 5
+  actualLives: 0
   shieldRegentBySec: 0.1
   actualshield: 0
+--- !u!114 &11495004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc437024622b234299fd0869ef08bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21246076
 SpriteRenderer:
   m_ObjectHideFlags: 1

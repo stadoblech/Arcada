@@ -49,12 +49,12 @@ public class PlayerBars : MonoBehaviour {
                 }
             case BarType.Shield:
                 {
-                    if (startShield <= 0)
+                    if (enemyLife.maxShield <= 0)
                     {
                         transform.localScale = Vector3.zero;
                         return;
                     }
-                    transform.localScale = new Vector3(enemyLife.actualshield / startShield, 1, 1);
+                    transform.localScale = new Vector3(enemyLife.actualshield / enemyLife.maxShield, 1, 1);
                     break;
                 }
         }

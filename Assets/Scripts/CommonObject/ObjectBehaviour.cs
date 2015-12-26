@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ObjectDeathRescale : MonoBehaviour {
+public class ObjectDeathBehaviour : MonoBehaviour {
 
     public float resizeSpeed = 2;
 

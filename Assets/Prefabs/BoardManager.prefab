@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   looped: 1
-  numberOfLaps: 2
+  numberOfLaps: 0
 --- !u!114 &11465260
 MonoBehaviour:
   m_ObjectHideFlags: 1
