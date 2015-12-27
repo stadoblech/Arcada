@@ -90,7 +90,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.45, z: 0}
+  m_LocalPosition: {x: -0.84, y: 0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 489252}
@@ -178,7 +178,7 @@ MonoBehaviour:
   projectile: {fileID: 125040, guid: 821c8e181450fa941b9e1f7cb0a386bf, type: 2}
   fireCooldown: 4
   shootingOffScreen: 0
-  shootOnRespawn: 1
+  shootOnRespawn: 0
   firstShotTime: 2
 --- !u!114 &11427542
 MonoBehaviour:

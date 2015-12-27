@@ -8,8 +8,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 446856}
-  - 82: {fileID: 8248510}
   - 114: {fileID: 11422634}
+  - 82: {fileID: 8215956}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -24,12 +24,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2014244, y: -0.044661447, z: -3.78125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!82 &8248510
+--- !u!82 &8215956
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -38,7 +38,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dba4d7cd37c57ae4097cbba56db14430, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -114,10 +114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc804862c18c764eb9a2da057ba7103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  efxSource: {fileID: 8248510}
-  musicSource: {fileID: 0}
-  lowPitchRange: 23.94
-  highPitchRange: -209.09
+  musicbg:
+  - {fileID: 8300000, guid: 6e8b0c7863c75354599738e21988b054, type: 3}
+  - {fileID: 8300000, guid: dba4d7cd37c57ae4097cbba56db14430, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -140,7 +139,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: efxSource
       value: 
-      objectReference: {fileID: 8248510}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: lowPitchRange
       value: 23.94
