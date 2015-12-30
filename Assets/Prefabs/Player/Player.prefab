@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac8c8d2b317a9b49ac771a0cd38b78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 2
+  fireRate: 1.5
   shot: 32
   missile: {fileID: 181186, guid: 7a9c5b49e59cdc44e9a9242213651960, type: 2}
 --- !u!114 &11406850
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLives: 5
-  maxShield: 5
+  maxShield: 0
   actualLives: 0
   shieldRegentBySec: 0.1
   actualshield: 0
@@ -353,6 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc437024622b234299fd0869ef08bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disabledForTest: 0
 --- !u!212 &21246076
 SpriteRenderer:
   m_ObjectHideFlags: 1

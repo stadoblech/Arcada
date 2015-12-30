@@ -5,8 +5,14 @@ public class PlayerDifficultyHandler : MonoBehaviour {
 
     PlayerLife life;
     PlayerShooting shooting;
+    public bool disabledForTest;
 
 	void Awake () {
+
+        if(disabledForTest)
+        {
+            return;
+        }
 
         life = GetComponent<PlayerLife>();
         shooting = GetComponent<PlayerShooting>();
