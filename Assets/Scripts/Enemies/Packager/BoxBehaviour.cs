@@ -34,14 +34,6 @@ public class BoxBehaviour : MonoBehaviour {
                 }
             }
         }
-
-        /*
-        if(!GetComponent<EnemyLife>().living)
-        {
-            Destroy(transform.parent.gameObject);
-        }
-        */
-
 	}
 
     void OnTriggerEnter2D(Collider2D coll)
