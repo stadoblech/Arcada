@@ -20,7 +20,6 @@ public class PlayerLife : MonoBehaviour {
 	void Update () {
         if(actualLives <= 0)
         {
-            //GameLogic.restartLevel();
             GameLogic.playerDied = true;
         }
 

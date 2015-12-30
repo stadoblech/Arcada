@@ -3,7 +3,7 @@ using System.Collections;
 
 public enum GameDifficulty
 {
-    Easy,Medium,Hard
+    Easy,Medium,Hard,Default
 }
 
 public class Difficulty : MonoBehaviour {

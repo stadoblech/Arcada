@@ -353,7 +353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc437024622b234299fd0869ef08bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disabledForTest: 0
+  enabledDifficulty: 1
+  difficultyTest: 3
 --- !u!212 &21246076
 SpriteRenderer:
   m_ObjectHideFlags: 1
