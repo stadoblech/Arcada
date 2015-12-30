@@ -35,10 +35,12 @@ public class BoxBehaviour : MonoBehaviour {
             }
         }
 
+        /*
         if(!GetComponent<EnemyLife>().living)
         {
             Destroy(transform.parent.gameObject);
         }
+        */
 
 	}
 

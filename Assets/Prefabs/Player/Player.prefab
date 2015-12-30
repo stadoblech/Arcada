@@ -95,8 +95,8 @@ GameObject:
   - 114: {fileID: 11465876}
   - 114: {fileID: 11400646}
   - 114: {fileID: 11480512}
-  - 114: {fileID: 11474064}
   - 114: {fileID: 11495004}
+  - 114: {fileID: 11423382}
   m_Layer: 0
   m_Name: player_cube
   m_TagString: Player
@@ -237,6 +237,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 718b25d04c0e56947903c5cafd509521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11423382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217bcab833553644e8aa1dd46e1be66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resizeSpeed: 2
 --- !u!114 &11427820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -314,18 +326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resizeSpeed: 2
---- !u!114 &11474064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 217bcab833553644e8aa1dd46e1be66d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resizeSpeed: 2
 --- !u!114 &11480512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -338,9 +338,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLives: 5
-  maxShield: 0
+  maxShield: 8
   actualLives: 0
-  shieldRegentBySec: 0.1
+  shieldRegentBySec: 0.5
   actualshield: 0
 --- !u!114 &11495004
 MonoBehaviour:
@@ -381,7 +381,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 74df56ab14f736e47986d380240a3382, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a95ba3f5cf83746488b37c3a24b4575c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

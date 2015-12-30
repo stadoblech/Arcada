@@ -1,0 +1,3133 @@
+fileFormatVersion: 2
+guid: e9053b24f0e8f044f897799d5f1f4d94
+timeCreated: 1451481947
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: concept1_0
+    21300002: concept1_1
+    21300004: concept1_2
+    21300006: concept1_3
+    21300008: concept1_4
+    21300010: concept1_5
+    21300012: concept1_6
+    21300014: concept1_7
+    21300016: concept1_8
+    21300018: concept1_9
+    21300020: concept1_10
+    21300022: concept1_11
+    21300024: concept1_12
+    21300026: concept1_13
+    21300028: concept1_14
+    21300030: concept1_15
+    21300032: concept1_16
+    21300034: concept1_17
+    21300036: concept1_18
+    21300038: concept1_19
+    21300040: concept1_20
+    21300042: concept1_21
+    21300044: concept1_22
+    21300046: concept1_23
+    21300048: concept1_24
+    21300050: concept1_25
+    21300052: concept1_26
+    21300054: concept1_27
+    21300056: concept1_28
+    21300058: concept1_29
+    21300060: concept1_30
+    21300062: concept1_31
+    21300064: concept1_32
+    21300066: concept1_33
+    21300068: concept1_34
+    21300070: concept1_35
+    21300072: concept1_36
+    21300074: concept1_37
+    21300076: concept1_38
+    21300078: concept1_39
+    21300080: concept1_40
+    21300082: concept1_41
+    21300084: concept1_42
+    21300086: concept1_43
+    21300088: concept1_44
+    21300090: concept1_45
+    21300092: concept1_46
+    21300094: concept1_47
+    21300096: concept1_48
+    21300098: concept1_49
+    21300100: concept1_50
+    21300102: concept1_51
+    21300104: concept1_52
+    21300106: concept1_53
+    21300108: concept1_54
+    21300110: concept1_55
+    21300112: concept1_56
+    21300114: concept1_57
+    21300116: concept1_58
+    21300118: concept1_59
+    21300120: concept1_60
+    21300122: concept1_61
+    21300124: concept1_62
+    21300126: concept1_63
+    21300128: concept1_64
+    21300130: concept1_65
+    21300132: concept1_66
+    21300134: concept1_67
+    21300136: concept1_68
+    21300138: concept1_69
+    21300140: concept1_70
+    21300142: concept1_71
+    21300144: concept1_72
+    21300146: concept1_73
+    21300148: concept1_74
+    21300150: concept1_75
+    21300152: concept1_76
+    21300154: concept1_77
+    21300156: concept1_78
+    21300158: concept1_79
+    21300160: concept1_80
+    21300162: concept1_81
+    21300164: concept1_82
+    21300166: concept1_83
+    21300168: concept1_84
+    21300170: concept1_85
+    21300172: concept1_86
+    21300174: concept1_87
+    21300176: concept1_88
+    21300178: concept1_89
+    21300180: concept1_90
+    21300182: concept1_91
+    21300184: concept1_92
+    21300186: concept1_93
+    21300188: concept1_94
+    21300190: concept1_95
+    21300192: concept1_96
+    21300194: concept1_97
+    21300196: concept1_98
+    21300198: concept1_99
+    21300200: concept1_100
+    21300202: concept1_101
+    21300204: concept1_102
+    21300206: concept1_103
+    21300208: concept1_104
+    21300210: concept1_105
+    21300212: concept1_106
+    21300214: concept1_107
+    21300216: concept1_108
+    21300218: concept1_109
+    21300220: concept1_110
+    21300222: concept1_111
+    21300224: concept1_112
+    21300226: concept1_113
+    21300228: concept1_114
+    21300230: concept1_115
+    21300232: concept1_116
+    21300234: concept1_117
+    21300236: concept1_118
+    21300238: concept1_119
+    21300240: concept1_120
+    21300242: concept1_121
+    21300244: concept1_122
+    21300246: concept1_123
+    21300248: concept1_124
+    21300250: concept1_125
+    21300252: concept1_126
+    21300254: concept1_127
+    21300256: concept1_128
+    21300258: concept1_129
+    21300260: concept1_130
+    21300262: concept1_131
+    21300264: concept1_132
+    21300266: concept1_133
+    21300268: concept1_134
+    21300270: concept1_135
+    21300272: concept1_136
+    21300274: concept1_137
+    21300276: concept1_138
+    21300278: concept1_139
+    21300280: concept1_140
+    21300282: concept1_141
+    21300284: concept1_142
+    21300286: concept1_143
+    21300288: concept1_144
+    21300290: concept1_145
+    21300292: concept1_146
+    21300294: concept1_147
+    21300296: concept1_148
+    21300298: concept1_149
+    21300300: concept1_150
+    21300302: concept1_151
+    21300304: concept1_152
+    21300306: concept1_153
+    21300308: concept1_154
+    21300310: concept1_155
+    21300312: concept1_156
+    21300314: concept1_157
+    21300316: concept1_158
+    21300318: concept1_159
+    21300320: concept1_160
+    21300322: concept1_161
+    21300324: concept1_162
+    21300326: concept1_163
+    21300328: concept1_164
+    21300330: concept1_165
+    21300332: concept1_166
+    21300334: concept1_167
+    21300336: concept1_168
+    21300338: concept1_169
+    21300340: concept1_170
+    21300342: concept1_171
+    21300344: concept1_172
+    21300346: concept1_173
+    21300348: concept1_174
+    21300350: concept1_175
+    21300352: concept1_176
+    21300354: concept1_177
+    21300356: concept1_178
+    21300358: concept1_179
+    21300360: concept1_180
+    21300362: concept1_181
+    21300364: concept1_182
+    21300366: concept1_183
+    21300368: concept1_184
+    21300370: concept1_185
+    21300372: concept1_186
+    21300374: concept1_187
+    21300376: concept1_188
+    21300378: concept1_189
+    21300380: concept1_190
+    21300382: concept1_191
+    21300384: concept1_192
+    21300386: concept1_193
+    21300388: concept1_194
+    21300390: concept1_195
+    21300392: concept1_196
+    21300394: concept1_197
+    21300396: concept1_198
+    21300398: concept1_199
+    21300400: concept1_200
+    21300402: concept1_201
+    21300404: concept1_202
+    21300406: concept1_203
+    21300408: concept1_204
+    21300410: concept1_205
+    21300412: concept1_206
+    21300414: concept1_207
+    21300416: concept1_208
+    21300418: concept1_209
+    21300420: concept1_210
+    21300422: concept1_211
+    21300424: concept1_212
+    21300426: concept1_213
+    21300428: concept1_214
+    21300430: concept1_215
+    21300432: concept1_216
+    21300434: concept1_217
+    21300436: concept1_218
+    21300438: concept1_219
+    21300440: concept1_220
+    21300442: concept1_221
+    21300444: concept1_222
+    21300446: concept1_223
+    21300448: concept1_224
+    21300450: concept1_225
+    21300452: concept1_226
+    21300454: concept1_227
+    21300456: concept1_228
+    21300458: concept1_229
+    21300460: concept1_230
+    21300462: concept1_231
+    21300464: concept1_232
+    21300466: concept1_233
+    21300468: concept1_234
+    21300470: concept1_235
+    21300472: concept1_236
+    21300474: concept1_237
+    21300476: concept1_238
+    21300478: concept1_239
+    21300480: concept1_240
+    21300482: concept1_241
+    21300484: concept1_242
+    21300486: concept1_243
+    21300488: concept1_244
+    21300490: concept1_245
+    21300492: concept1_246
+    21300494: concept1_247
+    21300496: concept1_248
+    21300498: concept1_249
+    21300500: concept1_250
+    21300502: concept1_251
+    21300504: concept1_252
+    21300506: concept1_253
+    21300508: concept1_254
+    21300510: concept1_255
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 75
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: concept1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: concept1_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 28
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_43
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_59
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_61
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_62
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_63
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_67
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_68
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_71
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_75
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_77
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_78
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_79
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 22
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_81
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_82
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_83
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_87
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_90
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_91
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_92
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_93
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_94
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_95
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_97
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_98
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_100
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_102
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_103
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_105
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_106
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_107
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_108
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_109
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_110
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_111
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_114
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_116
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_118
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_119
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_122
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_123
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_124
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_125
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_126
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_127
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 16
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_130
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_131
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_132
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_133
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_134
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_135
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_136
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_137
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_138
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_139
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_140
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_141
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_142
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_143
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_145
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_146
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_147
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_148
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_149
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_150
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_151
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_152
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_153
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_154
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_155
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_156
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_157
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_158
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_159
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 12
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_161
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_162
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_163
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_164
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_165
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_166
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_167
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_168
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_169
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_170
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_171
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_172
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_173
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_174
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_175
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 10
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_177
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_178
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_179
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_180
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_181
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_182
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_183
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_184
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_185
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_186
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_187
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_188
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_189
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_190
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_191
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 8
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_193
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_194
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_195
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_196
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_197
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_198
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_199
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_200
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_201
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_202
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_203
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_204
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_205
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_206
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_207
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 6
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_209
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_210
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_211
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_212
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_213
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_214
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_215
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_216
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_217
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_218
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_219
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_220
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_221
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_222
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_223
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_225
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_226
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_227
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_228
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_229
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_230
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_231
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_232
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_233
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_234
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_235
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_236
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_237
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_238
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_239
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_241
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_242
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_243
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_244
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_245
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_246
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_247
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_248
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_249
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_250
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_251
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_252
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_253
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_254
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: concept1_255
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
