@@ -42,7 +42,7 @@ public class EnemyBars : MonoBehaviour {
                 }
             case BarType.Shield:
                 {
-                    if (startShield <= 0)
+                    if (transform.localScale.x <= 0)
                     {
                         transform.localScale = Vector3.zero;
                         return;

@@ -29,6 +29,7 @@ public class EnemyLife : MonoBehaviour {
                 living = false;
             }else if(destroyParent)
             {
+                // Instantiate bits as effect 
                 Destroy(transform.parent.gameObject);
             }
             
