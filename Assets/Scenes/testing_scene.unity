@@ -85,6 +85,56 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &48778401
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446856, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422634, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: playMusicInScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422634, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9f47794cdb7c0224895b341f75891adc, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &297415675
 Prefab:
   m_ObjectHideFlags: 0

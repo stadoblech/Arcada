@@ -9,7 +9,10 @@ public class MineHandler : MonoBehaviour {
     GameObject player;
     Vector3 targetPoint;
 
+    bool onTarget;
     void Start () {
+        onTarget = false;
+
         player = GameObject.FindGameObjectWithTag("Player");
         targetPoint = player.transform.position;
 	}
@@ -18,9 +21,11 @@ public class MineHandler : MonoBehaviour {
 	void Update () {
         transform.position = Vector3.MoveTowards(transform.position,targetPoint,speed * Time.deltaTime);
 
-        if(transform.position == targetPoint)
+        if(transform.position == targetPoint && !onTarget)
         {
+            SoundEffectsManager.Instance.mineArmed();
             GetComponent<ObjectRotate>().rotating = false;
+            onTarget = true;
         }
 	}
 
@@ -28,12 +33,14 @@ public class MineHandler : MonoBehaviour {
     {
         if(coll.tag == "Player")
         {
+            SoundEffectsManager.Instance.missileExplode();
             Destroy(gameObject);
             coll.gameObject.GetComponent<PlayerLife>().getHit(damage);
         }
 
         if(coll.tag == "PlayerShot")
         {
+            SoundEffectsManager.Instance.missileExplode();
             Destroy(coll.gameObject);
             Destroy(gameObject);
         }

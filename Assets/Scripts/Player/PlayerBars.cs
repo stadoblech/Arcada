@@ -38,8 +38,9 @@ public class PlayerBars : MonoBehaviour {
                         transform.localScale = Vector3.zero;
                         return;
                     }
-                    transform.localScale = new Vector3(enemyLife.actualLives / startLife, 1, 1);
-
+                    
+                    //transform.localScale = new Vector3(enemyLife.actualLives / startLife, 1, 1);
+                    transform.localScale = new Vector3(1, enemyLife.actualLives / startLife, 1);
                     if (enemyLife.actualLives <= 0)
                     {
                         transform.localScale = new Vector3(0, 1, 1);
@@ -54,7 +55,8 @@ public class PlayerBars : MonoBehaviour {
                         transform.localScale = Vector3.zero;
                         return;
                     }
-                    transform.localScale = new Vector3(enemyLife.actualshield / enemyLife.maxShield, 1, 1);
+                    //transform.localScale = new Vector3(enemyLife.actualshield / enemyLife.maxShield, 1, 1);
+                    transform.localScale = new Vector3(1, enemyLife.actualshield / enemyLife.maxShield, 1);
                     break;
                 }
         }

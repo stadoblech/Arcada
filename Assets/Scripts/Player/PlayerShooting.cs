@@ -36,6 +36,9 @@ public class PlayerShooting : MonoBehaviour {
                 {
                     o.GetComponent<GunHandler>().shotMissile(missile);
                 }
+
+                SoundEffectsManager.Instance.playerShoot();
+
                 fireCadency = (60 / fireRate) / 100;
             }
         }else if(Input.GetKeyUp(shot))

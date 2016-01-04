@@ -7,7 +7,6 @@ public class MusicManager : MonoBehaviour {
     public AudioClip[] musicbg;
     private int i;
 
-
     public static MusicManager Instance
     {
         get { return instance; }
@@ -32,6 +31,7 @@ public class MusicManager : MonoBehaviour {
     {
         i = Random.Range(0, musicbg.Length);
         StartCoroutine("Playlist");
+
     }
 
     IEnumerator Playlist()

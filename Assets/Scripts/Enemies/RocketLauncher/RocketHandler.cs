@@ -22,6 +22,16 @@ public class RocketHandler : MonoBehaviour {
         if(coll.tag == player.tag)
         {
             player.GetComponent<PlayerLife>().getHit(damage);
+
+            SoundEffectsManager.Instance.missileExplode();
+
+            Destroy(gameObject);
+        }
+
+        if(coll.tag == "PlayerShot")
+        {
+            SoundEffectsManager.Instance.missileExplode();
+
             Destroy(gameObject);
         }
     }

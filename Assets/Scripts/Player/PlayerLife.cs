@@ -20,6 +20,7 @@ public class PlayerLife : MonoBehaviour {
 	void Update () {
         if(actualLives <= 0)
         {
+            SoundEffectsManager.Instance.playerDead();
             GameLogic.playerDied = true;
         }
 

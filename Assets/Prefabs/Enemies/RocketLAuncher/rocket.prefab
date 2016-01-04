@@ -13,7 +13,6 @@ GameObject:
   - 114: {fileID: 11442938}
   - 61: {fileID: 6145090}
   - 114: {fileID: 11409926}
-  - 114: {fileID: 11475306}
   - 114: {fileID: 11400922}
   - 96: {fileID: 9634938}
   m_Layer: 0
@@ -150,25 +149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   missileSpeed: 2
   turn: 10
---- !u!114 &11475306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 128766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a58ef9e6230180a40b079387f204bf20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shield: 0
-  lives: 0.01
-  destroyObjectOnNoHp: 1
-  destroyParent: 0
-  living: 0
-  bitsOnDestroy: 0
-  numberOfBitsOnDestroy: 0
-  bits: {fileID: 0}
 --- !u!212 &21207836
 SpriteRenderer:
   m_ObjectHideFlags: 1

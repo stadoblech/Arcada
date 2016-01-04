@@ -35,7 +35,7 @@ public class EnemyLife : MonoBehaviour {
                 living = false;
             }else if(destroyParent)
             {
-                //createBits();
+                SoundEffectsManager.Instance.enemyDead();
                 Destroy(transform.parent.gameObject);
             }
             
