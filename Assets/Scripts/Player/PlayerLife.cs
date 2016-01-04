@@ -11,7 +11,7 @@ public class PlayerLife : MonoBehaviour {
 
     public float actualshield;
 
-	void Awake () {
+	void Start () {
         actualshield = maxShield;
         actualLives = maxLives;
 	}

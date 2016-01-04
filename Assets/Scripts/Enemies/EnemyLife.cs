@@ -13,7 +13,12 @@ public class EnemyLife : MonoBehaviour {
     public bool destroyParent;
 
     public bool living;
-	void Start () {
+
+    //public bool bitsOnDestroy;
+    //public int numberOfBitsOnDestroy;
+    //public GameObject bits;
+
+    void Start () {
         living = true;
 	}
 	
@@ -22,6 +27,7 @@ public class EnemyLife : MonoBehaviour {
         {
             if (destroyObjectOnNoHp)
             {
+                //createBits();
                 Destroy(gameObject);
             }
             else if (!destroyObjectOnNoHp && !destroyParent)
@@ -29,7 +35,7 @@ public class EnemyLife : MonoBehaviour {
                 living = false;
             }else if(destroyParent)
             {
-                // Instantiate bits as effect 
+                //createBits();
                 Destroy(transform.parent.gameObject);
             }
             
@@ -60,4 +66,13 @@ public class EnemyLife : MonoBehaviour {
             /// kdzy se stretne player s enemy
         }
     }
+    /*
+    void createBits()
+    {
+        for(int i = 0;i<numberOfBitsOnDestroy;i++)
+        {
+            Instantiate(bits,transform.position,Quaternion.identity);
+        }
+    }
+    */
 }

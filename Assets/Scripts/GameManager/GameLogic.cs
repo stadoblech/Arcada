@@ -28,18 +28,19 @@ public class GameLogic : MonoBehaviour {
         }
     }
 
-    public static void LoadNextLevel()
+    public static int LoadNextLevel()
     {
         
         int numberOfScenes = SceneManager.sceneCountInBuildSettings;
-        int nextLevelIndes = SceneManager.GetActiveScene().buildIndex;
-        nextLevelIndes++;
+        int nextLevelId = SceneManager.GetActiveScene().buildIndex;
+        nextLevelId++;
         
-        if (nextLevelIndes < numberOfScenes)
+        if (nextLevelId < numberOfScenes)
         {
-            SceneManager.LoadScene(nextLevelIndes);
-            return;
+            SceneManager.LoadScene(nextLevelId);
+            return nextLevelId;
         }
+        return nextLevelId--;
         
     }
 

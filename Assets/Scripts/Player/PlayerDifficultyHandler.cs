@@ -28,7 +28,7 @@ public class PlayerDifficultyHandler : MonoBehaviour {
                 {
                     life.maxLives = 5;
                     life.maxShield = 7;
-                    life.shieldRegentBySec = 0.5f;
+                    life.shieldRegentBySec = 0.3f;
                     shooting.fireRate = 4;
                     break;
                 }
@@ -44,7 +44,7 @@ public class PlayerDifficultyHandler : MonoBehaviour {
                 {
                     life.maxLives = 3;
                     life.maxShield = 5;
-                    life.shieldRegentBySec = 0.1f;
+                    life.shieldRegentBySec = 0.15f;
                     shooting.fireRate = 2;
                     break;
                 }
