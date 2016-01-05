@@ -296,7 +296,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422762, guid: b37850128574606498482fffb3650e4d, type: 2}
       propertyPath: fireCooldown
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 138522, guid: b37850128574606498482fffb3650e4d, type: 2}
       propertyPath: m_Name
@@ -412,7 +412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422762, guid: b37850128574606498482fffb3650e4d, type: 2}
       propertyPath: fireCooldown
-      value: 2
+      value: 2.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b37850128574606498482fffb3650e4d, type: 2}
@@ -1009,6 +1009,10 @@ Prefab:
     - target: {fileID: 11480512, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495004, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
+      propertyPath: difficultyTest
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}

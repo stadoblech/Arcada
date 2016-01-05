@@ -27,6 +27,7 @@ public class RespawnerBehaviour : MonoBehaviour {
 
             if (respawnTimer <= 0)
             {
+                SoundEffectsManager.Instance.respawnerAction();
                 Instantiate(enemy, getRespawnPosition(), Quaternion.identity);
                 respawnTimer = respawnCooldown;
             }
@@ -36,6 +37,7 @@ public class RespawnerBehaviour : MonoBehaviour {
 
             if (respawnTimer <= 0)
             {
+                SoundEffectsManager.Instance.respawnerAction();
                 Instantiate(enemy, getRespawnPosition(), Quaternion.identity);
                 respawnTimer = respawnCooldown;
             }

@@ -37,6 +37,10 @@ public class SoundEffectsManager : MonoBehaviour {
     [Range(0f, 1f)]
     public float packagerVolume;
 
+    public AudioClip respawnerSound;
+    [Range(0f, 1f)]
+    public float respawnerVolume;
+
 
     private static SoundEffectsManager instance = null;
     
@@ -107,5 +111,10 @@ public class SoundEffectsManager : MonoBehaviour {
     public void packagerAction()
     {
         audio.PlayOneShot(packagerSound, packagerVolume);
+    }
+
+    public void respawnerAction()
+    {
+        audio.PlayOneShot(respawnerSound, respawnerVolume);
     }
 }

@@ -563,6 +563,10 @@ Prefab:
       propertyPath: looped
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11407466, guid: 28a340456665656488585c2a9f58635b, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 28a340456665656488585c2a9f58635b, type: 2}
   m_IsPrefabParent: 0

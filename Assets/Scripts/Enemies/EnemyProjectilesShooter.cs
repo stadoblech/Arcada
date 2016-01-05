@@ -13,11 +13,19 @@ public class EnemyProjectilesShooter : MonoBehaviour {
 
 	void Start () {
         //shootingOffScreen = false;
-        if(shootOnRespawn)
+        if (shootOnRespawn)
         {
             fireTimer = 0;
-        }else
+        }
+        else
+        {
+            if(firstShotTime == 0)
+            {
+                fireTimer = fireCooldown;
+                return;
+            }
             fireTimer = firstShotTime;
+        }
 	}
 	
 	// Update is called once per frame

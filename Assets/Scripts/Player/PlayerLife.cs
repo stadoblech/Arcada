@@ -26,6 +26,7 @@ public class PlayerLife : MonoBehaviour {
             if(!soundTriggered)
             {
                 SoundEffectsManager.Instance.playerDead();
+                GetComponent<BoxCollider2D>().enabled = false;
                 soundTriggered = true;
             }
             
