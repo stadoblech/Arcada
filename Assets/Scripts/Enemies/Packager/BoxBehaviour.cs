@@ -13,7 +13,10 @@ public class BoxBehaviour : MonoBehaviour {
     bool rescaling;
     bool followingPlayer;
 
+    bool soundPlayed;
+
 	void Start () {
+        soundPlayed = false;
         rescaling = false;
         followingPlayer = true;
         originalScale = transform.localScale;
@@ -33,6 +36,13 @@ public class BoxBehaviour : MonoBehaviour {
                     rescaling = false;
                 }
             }
+        }
+
+        if(transform.parent.position == GameObject.FindGameObjectWithTag("Player").transform.position && !soundPlayed)
+        {
+            SoundEffectsManager.Instance.packagerAction();
+            soundPlayed = true;
+            return;
         }
 	}
 

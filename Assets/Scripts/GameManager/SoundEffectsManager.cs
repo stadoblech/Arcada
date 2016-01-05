@@ -25,6 +25,18 @@ public class SoundEffectsManager : MonoBehaviour {
     [Range(0f, 1f)]
     public float mineArmedVolume;
 
+    public AudioClip enemyHitSound;
+    [Range(0f, 1f)]
+    public float enemyHitVolume;
+
+    public AudioClip[] lurkerMoveSound;
+    [Range(0f, 1f)]
+    public float lurkerMoveVolume;
+
+    public AudioClip packagerSound;
+    [Range(0f, 1f)]
+    public float packagerVolume;
+
 
     private static SoundEffectsManager instance = null;
     
@@ -79,5 +91,21 @@ public class SoundEffectsManager : MonoBehaviour {
     public void enemyDead()
     {
         audio.PlayOneShot(enemyDeadSound, enemyDeadVolume);
+    }
+
+    public void enemyHit()
+    {
+        audio.PlayOneShot(enemyHitSound, enemyHitVolume);
+    }
+
+    public void lurkerMove()
+    {
+        AudioClip s = lurkerMoveSound[Random.Range(0,lurkerMoveSound.Length)];
+        audio.PlayOneShot(s, lurkerMoveVolume);
+    }
+
+    public void packagerAction()
+    {
+        audio.PlayOneShot(packagerSound, packagerVolume);
     }
 }

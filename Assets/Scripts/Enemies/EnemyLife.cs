@@ -56,6 +56,8 @@ public class EnemyLife : MonoBehaviour {
             {
                 lives -= coll.gameObject.GetComponent<ShotDamage>().damage;
             }
+
+            //SoundEffectsManager.Instance.enemyHit();
         }
 
         if(coll.tag == "Player")

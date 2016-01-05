@@ -11,7 +11,10 @@ public class PlayerLife : MonoBehaviour {
 
     public float actualshield;
 
+    bool soundTriggered;
+
 	void Start () {
+        soundTriggered = false;
         actualshield = maxShield;
         actualLives = maxLives;
 	}
@@ -20,7 +23,12 @@ public class PlayerLife : MonoBehaviour {
 	void Update () {
         if(actualLives <= 0)
         {
-            SoundEffectsManager.Instance.playerDead();
+            if(!soundTriggered)
+            {
+                SoundEffectsManager.Instance.playerDead();
+                soundTriggered = true;
+            }
+            
             GameLogic.playerDied = true;
         }
 

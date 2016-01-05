@@ -43,6 +43,7 @@ public class LurkerMovement : MonoBehaviour {
             steadyTimer -= Time.deltaTime;
             if(steadyTimer < 0)
             {
+                SoundEffectsManager.Instance.lurkerMove();
                 destination = ObjectBasis.getRandomPositionOnScreen();
                 steadyTimer = steadyCooldown;
             }
