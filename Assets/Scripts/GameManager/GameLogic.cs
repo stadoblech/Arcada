@@ -34,13 +34,20 @@ public class GameLogic : MonoBehaviour {
         int numberOfScenes = SceneManager.sceneCountInBuildSettings;
         int nextLevelId = SceneManager.GetActiveScene().buildIndex;
         nextLevelId++;
-        
+
+        SaveHandler.saveGame(nextLevelId);
         if (nextLevelId < numberOfScenes)
         {
             SceneManager.LoadScene(nextLevelId);
             return nextLevelId;
         }
         return nextLevelId--;
+    }
+    
+    public static void loadSavedLevel()
+    {
+        SceneManager.LoadScene(SaveHandler.getSavedLevel());
+        Difficulty.difficultyModifier = SaveHandler.getSavedDifficulty();
     }
 
     public static void loadInterlevel()

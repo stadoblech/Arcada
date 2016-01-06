@@ -274,42 +274,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 11480512, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: maxShield
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11480512, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: lives
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11465876, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: changeSpeedRate
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11465876, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: maxPlayerSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11465876, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: minPlayerSpeed
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11465876, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: acceleratePlayer
-      value: 273
-      objectReference: {fileID: 0}
-    - target: {fileID: 11465876, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: deceleratePlayer
-      value: 274
-      objectReference: {fileID: 0}
-    - target: {fileID: 11480512, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: maxLives
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11480512, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
   m_IsPrefabParent: 0
