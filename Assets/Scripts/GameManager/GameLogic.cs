@@ -41,7 +41,6 @@ public class GameLogic : MonoBehaviour {
             return nextLevelId;
         }
         return nextLevelId--;
-        
     }
 
     public static void loadInterlevel()
@@ -52,5 +51,15 @@ public class GameLogic : MonoBehaviour {
     public static void restartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public static int getActualLevelId()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
+
+    public static string getActualLevelName()
+    {
+        return SceneManager.GetActiveScene().name;
     }
 }

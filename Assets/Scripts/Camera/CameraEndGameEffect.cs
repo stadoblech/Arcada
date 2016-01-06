@@ -8,12 +8,10 @@ public class CameraEndGameEffect : MonoBehaviour {
     public float maxCameraZoomout;
 
     Camera thisCamera;
-    float cameraSize;
 
     // Use this for initialization
     void Start () {
         thisCamera = Camera.main;
-        cameraSize = thisCamera.orthographicSize;
     }
 	
 	// Update is called once per frame

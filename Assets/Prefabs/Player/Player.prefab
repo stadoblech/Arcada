@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac8c8d2b317a9b49ac771a0cd38b78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 2
+  fireRate: 1.5
   shot: 32
   missile: {fileID: 181186, guid: 7a9c5b49e59cdc44e9a9242213651960, type: 2}
 --- !u!114 &11406850
@@ -363,8 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f29494bda2131429cb6f05874a1965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLives: 4
-  maxShield: 0
+  maxLives: 5
+  maxShield: 5
   actualLives: 0
   shieldRegentBySec: 0.5
   actualshield: 0
@@ -379,8 +379,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc437024622b234299fd0869ef08bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  easyDifficulty:
+    maxLife: 5
+    maxShield: 7
+    shieldRegenRate: 0.3
+    fireRate: 4.5
+  mediumDifficulty:
+    maxLife: 4
+    maxShield: 6
+    shieldRegenRate: 0.25
+    fireRate: 4
+  hardDifficulty:
+    maxLife: 3
+    maxShield: 5
+    shieldRegenRate: 0.15
+    fireRate: 3
   enabledDifficulty: 1
-  difficultyTest: 3
+  difficultyTest: 0
 --- !u!212 &21246076
 SpriteRenderer:
   m_ObjectHideFlags: 1

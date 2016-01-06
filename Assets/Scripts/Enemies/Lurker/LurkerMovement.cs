@@ -8,6 +8,12 @@ public class LurkerMovement : MonoBehaviour {
 
     public float speed;
 
+    public bool aggresiveMode;
+    public float agresiveMovePercentage = 33f;
+    public float lurkerAgresionDistance = 1f;
+
+    Transform player;
+
     float steadyTimer;
     Vector3 destination;
 
@@ -24,6 +30,8 @@ public class LurkerMovement : MonoBehaviour {
     }
 
 	void Start () {
+
+        player = GameObject.FindGameObjectWithTag("Player").transform;
 
         destination = transform.position;
 
@@ -44,7 +52,17 @@ public class LurkerMovement : MonoBehaviour {
             if(steadyTimer < 0)
             {
                 SoundEffectsManager.Instance.lurkerMove();
-                destination = ObjectBasis.getRandomPositionOnScreen();
+
+                if (aggresiveMode && agresiveMovePercentage < Random.Range(0f,100f))
+                {
+                    print("aggro");
+                    destination = new Vector3(player.position.x + Random.Range(-lurkerAgresionDistance, lurkerAgresionDistance), player.position.y + Random.Range(-lurkerAgresionDistance, lurkerAgresionDistance));                    
+                }
+                else
+                {
+                    destination = ObjectBasis.getRandomPositionOnScreen();
+                }
+
                 steadyTimer = steadyCooldown;
             }
 

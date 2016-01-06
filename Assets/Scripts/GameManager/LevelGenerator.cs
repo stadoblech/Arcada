@@ -8,10 +8,8 @@ public class LevelGenerator : MonoBehaviour {
     GameObject route;
     GameObject node;
 
-    int actualNode;
-
 	void Awake() {
-        actualNode = 0;
+
         route = GameObject.FindGameObjectWithTag("Route");
 
         foreach(Transform t in route.transform)

@@ -49,15 +49,15 @@ public class SoundEffectsManager : MonoBehaviour {
         get { return instance; }
     }
 
-    private AudioSource audio;
+    private AudioSource audioSource;
 
     void Awake()
     {
-        audio = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
 
         if (disableSounds)
         {
-            audio.enabled = false;
+            audioSource.enabled = false;
         }
 
         if (instance != null && instance != this)
@@ -69,52 +69,52 @@ public class SoundEffectsManager : MonoBehaviour {
         {
             instance = this;
         }
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     public void playerShoot()
     {
-        audio.PlayOneShot(playerShotSound,playerShotVolume);
+        audioSource.PlayOneShot(playerShotSound,playerShotVolume);
     }
 
     public void missileExplode()
     {
-        audio.PlayOneShot(missileExplodeSound, missileExplodeVolume);
+        audioSource.PlayOneShot(missileExplodeSound, missileExplodeVolume);
     }
 
     public void mineArmed()
     {
-        audio.PlayOneShot(mineArmedSound,mineArmedVolume);
+        audioSource.PlayOneShot(mineArmedSound,mineArmedVolume);
     }
 
     public void playerDead()
     {
-        audio.PlayOneShot(playerDeadSound, playerDeadVolume);
+        audioSource.PlayOneShot(playerDeadSound, playerDeadVolume);
     }
 
     public void enemyDead()
     {
-        audio.PlayOneShot(enemyDeadSound, enemyDeadVolume);
+        audioSource.PlayOneShot(enemyDeadSound, enemyDeadVolume);
     }
 
     public void enemyHit()
     {
-        audio.PlayOneShot(enemyHitSound, enemyHitVolume);
+        audioSource.PlayOneShot(enemyHitSound, enemyHitVolume);
     }
 
     public void lurkerMove()
     {
         AudioClip s = lurkerMoveSound[Random.Range(0,lurkerMoveSound.Length)];
-        audio.PlayOneShot(s, lurkerMoveVolume);
+        audioSource.PlayOneShot(s, lurkerMoveVolume);
     }
 
     public void packagerAction()
     {
-        audio.PlayOneShot(packagerSound, packagerVolume);
+        audioSource.PlayOneShot(packagerSound, packagerVolume);
     }
 
     public void respawnerAction()
     {
-        audio.PlayOneShot(respawnerSound, respawnerVolume);
+        audioSource.PlayOneShot(respawnerSound, respawnerVolume);
     }
 }

@@ -10,7 +10,6 @@ public class LineCreator : MonoBehaviour {
     GameObject nLine;
     void Start () {
 
-        List<GameObject> points = new List<GameObject>();
 
         int currentPoint = int.Parse(name);
 

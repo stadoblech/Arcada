@@ -11,14 +11,12 @@ public class BoxBehaviour : MonoBehaviour {
 
     Vector3 originalScale;
     bool rescaling;
-    bool followingPlayer;
 
     bool soundPlayed;
 
 	void Start () {
         soundPlayed = false;
         rescaling = false;
-        followingPlayer = true;
         originalScale = transform.localScale;
         transform.localScale = new Vector3(startScale,startScale,startScale);
 	}

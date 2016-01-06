@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.014321446, y: 0.15771466, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 459132}
@@ -180,9 +180,6 @@ MonoBehaviour:
   destroyObjectOnNoHp: 0
   destroyParent: 1
   living: 0
-  bitsOnDestroy: 0
-  numberOfBitsOnDestroy: 0
-  bits: {fileID: 0}
 --- !u!114 &11428122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,6 +220,9 @@ MonoBehaviour:
   steadyCooldown: 2
   startingSteadyCooldown: 1
   speed: 15
+  aggresiveMode: 1
+  agresiveMovePercentage: 33
+  lurkerAgresionDistance: 0.5
 --- !u!114 &11489676
 MonoBehaviour:
   m_ObjectHideFlags: 1

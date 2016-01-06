@@ -14,6 +14,7 @@ public class GunHandler : MonoBehaviour {
 
     public void shotMissile(GameObject missile)
     {
-        GameObject shot = (GameObject)Instantiate(missile, transform.position, transform.rotation);
+        //GameObject shot = (GameObject)Instantiate(missile, transform.position, transform.rotation);
+        Instantiate(missile, transform.position, transform.rotation);
     }
 }
