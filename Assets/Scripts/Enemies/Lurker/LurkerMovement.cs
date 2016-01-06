@@ -53,9 +53,9 @@ public class LurkerMovement : MonoBehaviour {
             {
                 SoundEffectsManager.Instance.lurkerMove();
 
-                if (aggresiveMode && agresiveMovePercentage < Random.Range(0f,100f))
+                if (aggresiveMode && agresiveMovePercentage > Random.Range(0f,100f))
                 {
-                    print("aggro");
+                    print("agg");
                     destination = new Vector3(player.position.x + Random.Range(-lurkerAgresionDistance, lurkerAgresionDistance), player.position.y + Random.Range(-lurkerAgresionDistance, lurkerAgresionDistance));                    
                 }
                 else

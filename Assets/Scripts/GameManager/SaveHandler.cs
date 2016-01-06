@@ -11,7 +11,6 @@ public class SaveHandler {
     public static void saveGame(int levelId)
     {
         savePath = Application.dataPath + "/" + saveFileName;
-        MonoBehaviour.print(savePath);
         using (BinaryWriter writer = new BinaryWriter(File.Open(savePath, FileMode.Create)))
         {
             writer.Write(levelId);

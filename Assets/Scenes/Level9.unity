@@ -459,7 +459,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11495004, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
       propertyPath: difficultyTest
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
@@ -473,11 +473,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 404536, guid: f64b6faca6e22e54e8882a8f028f711c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 404536, guid: f64b6faca6e22e54e8882a8f028f711c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 404536, guid: f64b6faca6e22e54e8882a8f028f711c, type: 2}
       propertyPath: m_LocalPosition.z

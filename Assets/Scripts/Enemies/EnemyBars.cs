@@ -23,10 +23,8 @@ public class EnemyBars : MonoBehaviour {
         startLife = enemyLife.lives;
         startShield = enemyLife.shield;
         startScale = transform.localScale;
-
 	}
 	
-	// Update is called once per frame
 	void Update () {
         switch(barType)
         {
