@@ -14,6 +14,8 @@ public class EnemyLife : MonoBehaviour {
 
     public bool living;
 
+    public GameObject deathMark;
+
     //public bool bitsOnDestroy;
     //public int numberOfBitsOnDestroy;
     //public GameObject bits;
@@ -28,6 +30,7 @@ public class EnemyLife : MonoBehaviour {
             if (destroyObjectOnNoHp)
             {
                 //createBits();
+                createDeathMark();
                 Destroy(gameObject);
             }
             else if (!destroyObjectOnNoHp && !destroyParent)
@@ -35,6 +38,7 @@ public class EnemyLife : MonoBehaviour {
                 living = false;
             }else if(destroyParent)
             {
+                createDeathMark();
                 SoundEffectsManager.Instance.enemyDead();
                 Destroy(transform.parent.gameObject);
             }
@@ -66,6 +70,14 @@ public class EnemyLife : MonoBehaviour {
             lives = 0;
             //coll.gameObject.GetComponent<PlayerLife>().
             /// kdzy se stretne player s enemy
+        }
+    }
+
+    void createDeathMark()
+    {
+        if (deathMark != null)
+        {
+            Instantiate(deathMark, transform.position, Quaternion.identity);
         }
     }
     /*

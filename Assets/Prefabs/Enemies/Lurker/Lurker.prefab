@@ -180,6 +180,7 @@ MonoBehaviour:
   destroyObjectOnNoHp: 0
   destroyParent: 1
   living: 0
+  deathMark: {fileID: 141692, guid: 31bf44d165fbc834fab2b56d114ac080, type: 2}
 --- !u!114 &11428122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,7 +221,7 @@ MonoBehaviour:
   steadyCooldown: 2
   startingSteadyCooldown: 1
   speed: 15
-  aggresiveMode: 1
+  aggresiveMode: 0
   agresiveMovePercentage: 33
   lurkerAgresionDistance: 0.5
 --- !u!114 &11489676
@@ -357,6 +358,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: shield
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deathMark
+      value: 
+      objectReference: {fileID: 141692, guid: 31bf44d165fbc834fab2b56d114ac080, type: 2}
+    - target: {fileID: 0}
+      propertyPath: aggresiveMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

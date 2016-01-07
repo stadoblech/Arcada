@@ -5,6 +5,8 @@ public class RocketHandler : MonoBehaviour {
 
     public float damage;
 
+    public GameObject markerOnDeath;
+
     GameObject player;
 
 
@@ -31,6 +33,10 @@ public class RocketHandler : MonoBehaviour {
         if(coll.tag == "PlayerShot")
         {
             SoundEffectsManager.Instance.missileExplode();
+            if(markerOnDeath != null)
+            {
+                Instantiate(markerOnDeath,transform.position,Quaternion.identity);
+            }
 
             Destroy(gameObject);
         }

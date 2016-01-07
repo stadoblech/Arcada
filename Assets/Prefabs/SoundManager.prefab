@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0c520235d700e4684b6e4b99a907f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableSounds: 1
+  disableSounds: 0
   playerShotSound: {fileID: 8300000, guid: ef6baa77eed52664aa0fb2c4a066a07c, type: 3}
   playerShotVolume: 1
   playerDeadSound: {fileID: 8300000, guid: 126b63b7a8cca76449ce9efe2f501300, type: 3}
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100842}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccc804862c18c764eb9a2da057ba7103, type: 3}
   m_Name: 

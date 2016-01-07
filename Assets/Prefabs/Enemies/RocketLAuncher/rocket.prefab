@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
+  markerOnDeath: {fileID: 145736, guid: a730ec1efcd960243a46400aaec080d0, type: 2}
 --- !u!114 &11442938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -206,6 +207,10 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: markerOnDeath
+      value: 
+      objectReference: {fileID: 145736, guid: a730ec1efcd960243a46400aaec080d0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 128766}
