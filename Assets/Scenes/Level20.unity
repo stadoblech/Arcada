@@ -428,6 +428,60 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 179268, guid: d6011d3a161cebd49b57d95806f32d9a, type: 2}
   m_PrefabInternal: {fileID: 474831794}
+--- !u!1001 &556014988
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: shootOnRespawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: fireCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137398, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_Name
+      value: RocketLauncher (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7304a61282ac043469205dcb09450904, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &766932637
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +1049,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7304a61282ac043469205dcb09450904, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1816398211
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: shootOnRespawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: fireCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137398, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_Name
+      value: RocketLauncher (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7304a61282ac043469205dcb09450904, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1941329011
 Prefab:
   m_ObjectHideFlags: 0
@@ -1045,6 +1153,60 @@ Prefab:
     - target: {fileID: 137398, guid: 7304a61282ac043469205dcb09450904, type: 2}
       propertyPath: m_Name
       value: RocketLauncher (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7304a61282ac043469205dcb09450904, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2046925881
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 462962, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: shootOnRespawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420116, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: fireCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137398, guid: 7304a61282ac043469205dcb09450904, type: 2}
+      propertyPath: m_Name
+      value: RocketLauncher (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7304a61282ac043469205dcb09450904, type: 2}
