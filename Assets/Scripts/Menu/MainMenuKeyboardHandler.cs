@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class MainMenuKeyboardHandler : MonoBehaviour {
 
     public KeyCode up = KeyCode.UpArrow;
@@ -10,12 +11,15 @@ public class MainMenuKeyboardHandler : MonoBehaviour {
     public Transform newGame;
     public Transform continueGame;
 
+    public bool cursorVisible;
+
     void Start () {
         transform.position = newGame.transform.position;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        Cursor.visible = cursorVisible;
+    }
+
+    // Update is called once per frame
+    void Update () {
 
         if (Input.GetKeyDown(up) && transform.position == newGame.position)
         {
