@@ -229,7 +229,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'left arrow, right arrow - rotate
 
-    space - shoot'
+    space - shoot
+
+    Press "q" to quit anytime'
 --- !u!222 &339031272
 CanvasRenderer:
   m_ObjectHideFlags: 0
